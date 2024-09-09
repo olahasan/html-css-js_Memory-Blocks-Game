@@ -75,12 +75,12 @@ Overall, this project was a great opportunity to apply and enhance my knowledge 
 
 ## Continued Development
 Future improvements and features I plan to add:
-- Multiplayer Mode: Introduce a multiplayer mode where players can compete against each other in real-time, adding a competitive edge to the game.
-- Power-Ups: Add power-ups that players can earn or purchase to help them clear blocks more efficiently, such as hints or the ability to shuffle the grid.
-- Ensure the game is accessible to all players by adding features such as adjustable font sizes, colorblind modes, and screen reader support.
-- Optimized Performance: Refactor the code to improve performance, ensuring the game runs smoothly on all devices, including those with lower specifications.
-- Bug Fixes and Testing: Continuously test the game to identify and fix any bugs or issues, ensuring a seamless and enjoyable experience for players.
-- User Feedback Integration: Actively seek and incorporate feedback from players to make informed decisions about new features and improvements and Build a community around the game by creating forums or social media groups where players can share tips, strategies, and feedback.
+- **Multiplayer Mode:** Introduce a multiplayer mode where players can compete against each other in real-time, adding a competitive edge to the game.
+- **Power-Ups:** Add power-ups that players can earn or purchase to help them clear blocks more efficiently, such as hints or the ability to shuffle the grid.
+- Ensure the game is accessible to all players by adding features such as **adjustable font sizes, colorblind modes, and screen reader support**.
+- **Optimized Performance:** Refactor the code to improve performance, ensuring the game runs smoothly on all devices, including those with lower specifications.
+- **Bug Fixes and Testing:** Continuously test the game to identify and fix any bugs or issues, ensuring a seamless and enjoyable experience for players.
+- **User Feedback Integration:** Actively seek and incorporate feedback from players to make informed decisions about new features and improvements and Build a community around the game by creating forums or social media groups where players can share tips, strategies, and feedback.
 
 
 ### Author
