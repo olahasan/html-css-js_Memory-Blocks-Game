@@ -58,19 +58,19 @@ Otherwise, all links will open in the same tab.
 ## what-i-learned
 Creating the Memory Blocks Game that matches pairs of similar pictures using HTML, CSS, and JavaScript was a rewarding experience. Here are some key takeaways from the project:
 
-**HTML**
-**Semantic Structure:** I learned the importance of using semantic HTML elements to create a well-structured and accessible web page. Elements like <section>, <div>, and <button> were used to organize the game layout.
-**Dynamic Content:** I gained experience in dynamically generating HTML content using JavaScript, which allowed for the creation of the game grid and the display of pictures.
+### **HTML**
+1. **Semantic Structure:** I learned the importance of using semantic HTML elements to create a well-structured and accessible web page. Elements like <section>, <div>, and <button> were used to organize the game layout.
+2. **Dynamic Content:** I gained experience in dynamically generating HTML content using JavaScript, which allowed for the creation of the game grid and the display of pictures.
 
-**CSS**
-**Responsive Design:** I learned how to create a responsive design that adapts to different screen sizes, ensuring the game is playable on both desktop and mobile devices. Techniques like media queries and flexible grid layouts were essential.
-**Styling Elements:** I explored various CSS properties to style the game elements, including transitions and animations to enhance the user experience. For example, adding a flip animation to the blocks when they are clicked.
-**Theming:** I experimented with different color schemes and themes to make the game visually appealing and engaging.
+### **CSS**
+3. **Responsive Design:** I learned how to create a responsive design that adapts to different screen sizes, ensuring the game is playable on both desktop and mobile devices. Techniques like media queries and flexible grid layouts were essential.
+4. **Styling Elements:** I explored various CSS properties to style the game elements, including transitions and animations to enhance the user experience. For example, adding a flip animation to the blocks when they are clicked.
+5. **Theming:** I experimented with different color schemes and themes to make the game visually appealing and engaging.
 
-**JavaScript**
-**DOM Manipulation:** I improved my skills in manipulating the DOM to update the game state in real-time. This included adding event listeners to handle user interactions and updating the game grid dynamically.
-**Game Logic:** I developed the core game logic to handle matching pairs of pictures, tracking the player’s progress, and managing the game state. This involved using arrays and loops to manage the game data.
-**Debugging:** I honed my debugging skills by identifying and fixing issues in the game logic and ensuring smooth gameplay.
+### **JavaScript**
+6. **DOM Manipulation:** I improved my skills in manipulating the DOM to update the game state in real-time. This included adding event listeners to handle user interactions and updating the game grid dynamically.
+7. **Game Logic:** I developed the core game logic to handle matching pairs of pictures, tracking the player’s progress, and managing the game state. This involved using arrays and loops to manage the game data.
+8. **Debugging:** I honed my debugging skills by identifying and fixing issues in the game logic and ensuring smooth gameplay.
 Overall, this project was a great opportunity to apply and enhance my knowledge of HTML, CSS, and JavaScript, while also learning new techniques and best practices for web development.
 
 ## Continued Development
