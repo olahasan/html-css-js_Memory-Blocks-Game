@@ -1,4 +1,4 @@
-# html-css-js_Memory-Blocks-Game
+# Memory-Blocks-Game
 A simple and fun Memory-Blocks-Game built with HTML, CSS, and JavaScript.
 
 
