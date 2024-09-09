@@ -1,5 +1,5 @@
 # Memory-Blocks-Game
-A simple and fun Memory-Blocks-Game built with HTML, CSS, and JavaScript.
+A simple and fun Memory-Blocks-Game built with HTML, CSS, and JavaScript.it designed to enhance memory . The objective of the game is to match pairs of identical pictures hidden behind blocks within a given time.
 
 
 ## Table of contents
@@ -17,7 +17,7 @@ A simple and fun Memory-Blocks-Game built with HTML, CSS, and JavaScript.
 
 
 ## overview
-Memory Blocks Game is an engaging puzzle game designed to enhance memory and concentration skills. The objective of the game is to match pairs of identical pictures hidden behind blocks. Player must remember the location of each picture and find its matching pair to clear the blocks from the grid.
+Memory Blocks Game is an engaging puzzle game designed to enhance memory and concentration skills. The objective of the game is to match pairs of identical pictures hidden behind blocks. Player must remember the location of each picture and find its matching pair to clear the blocks from the grid within a given time.
 
 ## Usage
 1. Open `index.html` in your web browser.
