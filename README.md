@@ -59,7 +59,7 @@ Otherwise, all links will open in the same tab.
 Creating the Memory Blocks Game that matches pairs of similar pictures using HTML, CSS, and JavaScript was a rewarding experience. Here are some key takeaways from the project:
 
 ### **HTML**
-1. **Semantic Structure:** I learned the importance of using semantic HTML elements to create a well-structured and accessible web page. Elements like <section>, <div>, and <button> were used to organize the game layout.
+1. **Semantic Structure:** I learned the importance of using semantic HTML elements to create a well-structured and accessible web page. Elements like ```<section> <div> and <button>``` were used to organize the game layout.
 2. **Dynamic Content:** I gained experience in dynamically generating HTML content using JavaScript, which allowed for the creation of the game grid and the display of pictures.
 
 ### **CSS**
