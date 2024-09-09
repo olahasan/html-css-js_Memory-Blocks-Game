@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- next meta, tells the browser to use the most modern, standards-compliant rendering mode available -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="control-buttons">
+      <span>Start Game</span>
+    </div>
+
+    <div class="info-container">
+      <div class="name">Hello: <span></span></div>
+      <div class="timer">Timer:<span></span></div>
+      <div class="tries">Wrong Tries: <span>0</span></div>
+    </div>
+
+    <div class="memory-game-blocks">
+      <div class="game-block" data-technology="bootstrap">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="images/bootstrap.png" alt="bootstrapPic" />
+        </div>
+      </div>
+
+      <div class="game-block" data-technology="bootstrap">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="images/bootstrap.png" alt="bootstrapPic" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="cpp">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="images/cpp.png" alt="cpp" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="cpp">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="images/cpp.png" alt="cpp" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="cSharp">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="images/cSharp.jpg" alt="cSharp" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="cSharp">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="images/cSharp.jpg" alt="cSharp" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="css">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="images/css.png" alt="css" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="css">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="images/css.png" alt="css" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="database">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="images/database.jpg" alt="database" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="database">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="images/database.jpg" alt="database" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="github">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="images/github.png" alt="github" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="github">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="images/github.png" alt="github" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="html">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="images/html.png" alt="html" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="html">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="images/html.png" alt="html" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="javascript">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="images/js.jpg" alt="javascript" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="javascript">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="images/js.jpg" alt="javascript" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="react360">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="images/ReactJS.png" alt="react360" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="react360">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="images/ReactJS.png" alt="react360" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="redux">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="images/redux.png" alt="redux" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="redux">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="images/redux.png" alt="redux" />
+        </div>
+      </div>
+    </div>
+
+    <div class="finsh">
+      <video
+        id="myVideo"
+        class="video-background"
+        muted
+        loop
+        hidden
+        poster="images/videoCover.png"
+      >
+        <source
+          src="video/stationary shot of gold and pink confetti falling against grey background_preview.mp4"
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <audio class="myAudioCorrectAnswer" controls hidden preload="auto">
+      <source src="audio/mixkit-achievement-bell-600.mp3" type="audio/mp3" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <audio class="myAudiowrongAnswer" controls hidden preload="auto">
+      <source
+        src="audio/mixkit-game-show-wrong-answer-buzz-950.mp3"
+        type="audio/mp3"
+      />
+      Your browser does not support the audio element.
+    </audio>
+
+    <audio class="myAudioLongMusic" controls hidden preload="auto">
+      <source src="audio/mixkit-feel-alive-953Long.mp3" type="audio/mp3" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <audio class="myAudiocongratulations" controls hidden>
+      <source
+        src="audio/mixkit-game-level-completed-2059_1.mp3"
+        type="audio/mp3"
+      />
+      Your browser does not support the audio element.
+    </audio>
+
+    <audio class="myAudioGameOver" controls hidden>
+      <source src="audio/mixkit-falling-game-over-1942.mp3" type="audio/mp3" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <script src="main1.js"></script>
+  </body>
+</html>

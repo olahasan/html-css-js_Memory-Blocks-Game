@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Tahoma, sans-serif;
+  position: relative;
+}
+.control-buttons {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-color: rgba(3, 169, 244, 0.9);
+}
+.control-buttons span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f44336;
+  color: #fff;
+  padding: 15px 25px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.info-container {
+  width: 800px;
+  margin: 10px auto 0;
+  background-color: #f6f6f6;
+  padding: 20px;
+  font-size: 24px;
+  overflow: hidden;
+  border: 2px solid #2196f3;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.memory-game-blocks {
+  margin: 10px auto;
+  grid-template-columns: repeat(5, minmax(150px, 1fr));
+  display: grid;
+  max-width: 800px;
+}
+.memory-game-blocks.no-clicking {
+  pointer-events: none;
+}
+.memory-game-blocks .game-block {
+  height: 134px;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+  margin: 0 3px 5px;
+}
+.memory-game-blocks .game-block .front {
+  background-color: #333;
+  line-height: 134px;
+}
+.memory-game-blocks .game-block .front:before {
+  content: "!";
+  color: #fff;
+  font-size: 140px;
+  font-weight: bold;
+}
+.memory-game-blocks .game-block .back {
+  background-color: #607d8b;
+  transform: rotateY(180deg);
+}
+.memory-game-blocks .game-block .back img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 144px;
+  height: 100%;
+}
+.memory-game-blocks .game-block .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  backface-visibility: hidden;
+  border: 5px solid #2196f3;
+}
+.memory-game-blocks .game-block.is-flipped,
+.memory-game-blocks .game-block.has-match {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  pointer-events: none;
+}
+
+.finsh.show {
+  background-color: #607d8bf7;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video-background {
+  width: 800px;
+  position: absolute;
+  z-index: 1;
+  border-radius: 20px;
+}
+.finsh.show .card {
+  text-align: center;
+  font-weight: bold;
+  z-index: 3;
+}
+.finsh.show .card .title.Congratulations,
+.finsh.show .card .title.Game-Over {
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+.finsh.show .card .title.Congratulations {
+  color: green;
+}
+.finsh.show .card .title.Game-Over {
+  color: red;
+}
+
+.finsh.show .card .question {
+  font-size: 40px;
+  margin-bottom: 14px;
+}
+.finsh.show .card .btn-container {
+  cursor: pointer;
+}
+.finsh.show .card .btn-container .btn-yes,
+.finsh.show .card .btn-container .btn-no {
+  font-size: 20px;
+  padding: 7px 9px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  color: cornflowerblue;
+  font-weight: bold;
+}
+.finsh.show .card .btn-container .btn-yes {
+  padding: 7px 9px;
+}
+.finsh.show .card .btn-container .btn-no {
+  padding: 7px 14px;
+  margin-left: 10px;
+}
+p.thanks {
+  font-weight: bold;
+  font-size: 40px;
+  color: aqua;
+}
