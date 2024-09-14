@@ -51,6 +51,7 @@ Otherwise, all links will open in the same tab.
 - Real-time score tracking
 - Audio feedback for correct and incorrect answers
 - Visual feedback with a background video for winning
+- Voice feedback using Google Text-to-Speech
 - Relaxing Game play: Easy to play with simple tap controls, making it suitable for all ages.
 - Diverse Themes: Multiple themes and picture sets to keep the game visually appealing and interesting.
 -Timed Challenges: Implement timed challenges where players must match pairs within a certain time limit to progress, increasing the game’s difficulty and excitement.
@@ -71,7 +72,9 @@ Creating the Memory Blocks Game that matches pairs of similar pictures using HTM
 6. **DOM Manipulation:** I improved my skills in manipulating the DOM to update the game state in real-time. This included adding event listeners to handle user interactions and updating the game grid dynamically.
 7. **Game Logic:** I developed the core game logic to handle matching pairs of pictures, tracking the player’s progress, and managing the game state. This involved using arrays and loops to manage the game data.
 8. **Debugging:** I honed my debugging skills by identifying and fixing issues in the game logic and ensuring smooth gameplay.
-Overall, this project was a great opportunity to apply and enhance my knowledge of HTML, CSS, and JavaScript, while also learning new techniques and best practices for web development.
+9. Learned how to use the Google Text-to-Speech for voice feedback.
+
+###### Overall, this project was a great opportunity to apply and enhance my knowledge of HTML, CSS, and JavaScript, while also learning new techniques and best practices for web development.
 
 ## Continued Development
 Future improvements and features I plan to add:
